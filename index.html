@@ -8,23 +8,70 @@
 </head>
 <body>
     <div class="calc">
-        <div class="calc-board">
-            <div class="calc-details">
-                <h3>Enter 1st number</h3>
-                <h3>Enter 2nd number</h3>
-                <h3>Answer</h3>
-            </div>
-            <form onsubmit="return false">
-                <input id="first" type="number" value="0">
-                <input id="second" type="number" value="0">
-                <input id="last" type="number" value="0">
-            </form>
+        <form onsubmit="return false">
+            <input id="display" type="number" value="0">
+        </form>
+        <div class="calc-buttons">
+            <ul>
+                <li>
+                    <div id="clearBtn">AC</div>
+                </li>
+                <li>
+                    <div id="inactive">+-</div>
+                </li>
+                <li>
+                    <div id="inactive2">%</div>
+                </li>
+                <li>
+                    <div id="divideBtn">/</div>
+                </li>
+                <li>
+                    <div id="sevenBtn">7</div>
+                </li>
+                <li>
+                    <div id="eightBtn">8</div>
+                </li>
+                <li>
+                    <div id="nineBtn">9</div>
+                </li>
+                <li>
+                    <div id="multiBtn">x</div>
+                </li>
+                <li>
+                    <div id="fourBtn">4</div>
+                </li>
+                <li>
+                    <div id="fiveBtn">5</div>
+                </li>
+                <li>
+                    <div id="sixBtn">6</div>
+                </li>
+                <li>
+                    <div id="minusBtn">-</div>
+                </li>
+                <li>
+                    <div id="oneBtn">1</div>
+                </li>
+                <li>
+                    <div id="twoBtn">2</div>
+                </li>
+                <li>
+                    <div id="threeBtn">3</div>
+                </li>
+                <li>
+                    <div id="plusBtn">+</div>
+                </li>
+                <li>
+                    <div id="zeroBtn">0</div>
+                </li>
+                <li>
+                    <div id="pointBtn">.</div>
+                </li>
+                <li>
+                    <div id="equalBtn">=</div>
+                </li>
+            </ul>
         </div>
-        <button id="minusBtn">-</button>
-        <button id="plusBtn">+</button>
-        <button id="multiBtn">x</button>
-        <button id="divideBtn">/</button>
-        <button id="clearBtn">Clear</button>
     </div>
 
     <script src="script.js"></script>
